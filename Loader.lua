@@ -1,4 +1,4 @@
-setclipboard("https://discord.io/LunarCrocs")
+setclipboard("https://discord.gg/shcdVcSsQx")
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
@@ -14,6 +14,13 @@ local games = {
 }
 
 if game.PlaceId == 6516141723 then
+    OrionLib:MakeNotification({
+        Name = "LunarCrocs",
+        Content = "Join the discord! Copied invite to your clipboard.",
+        Image = "rbxassetid://4483345998",
+        Time = 10
+    })
+
     OrionLib:MakeNotification({
         Name = "WARNING!",
         Content = "Do NOT execute Lunar AI in the lobby as it could get you permanently banned!",
