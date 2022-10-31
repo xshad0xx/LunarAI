@@ -16,9 +16,20 @@ repeat
 until count == 3
 
 local games = {
-    [{6516141723}] = "https://raw.githubusercontent.com/xshad0xx/LunarAI/main/DoorsLobby/Script.lua",
     [{6839171747}] = "https://raw.githubusercontent.com/xshad0xx/LunarAI/main/DoorsGame/Script.lua"
 }
+
+if game.PlaceId == 6516141723 then
+    OrionLib:MakeNotification({
+        Name = "WARNING!",
+        Content = "Do NOT execute Lunar AI in the lobby as it could get you permanently banned!",
+        Time = 30
+    })
+
+    OrionLib:Init()
+
+    return
+end
 
 for ids, url in next, games do
     if table.find(ids, game.PlaceId) then
