@@ -1567,6 +1567,12 @@ LatestRoom.Changed:Connect(function()
     end
 end)
 
+OrionLib:MakeNotification({
+    Name = "Information",
+    Content = "Check Out The Lunar AI Discord Server! The Link Has Been Copied To Your Clipboard!",
+    Time = 10
+})
+
 chat("Welcome to DOORS! Loading Lunar AI...")
 wait(0.5)
 chat("Loaded Lunar AI!")

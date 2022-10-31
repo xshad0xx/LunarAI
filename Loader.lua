@@ -2,12 +2,6 @@ setclipboard("https://discord.io/LunarCrocs")
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-OrionLib:MakeNotification({
-    Name = "Information",
-    Content = "Check Out The Lunar AI Discord Server! The Link Has Been Copied To Your Clipboard!",
-    Time = 10
-})
-
 local count = 0
 
 repeat
