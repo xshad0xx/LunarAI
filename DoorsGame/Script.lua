@@ -12,7 +12,7 @@ local currentEntity = "None"
 local libraryFigureSpawned = false
 local escapeFigureSpawned = false
 
-local correctKey = loadstring(game:HttpGet("https://raw.githubusercontent.com/xshad0xx/LunarAI/main/key.lua"))()
+local correctKey = loadstring(game:HttpGet("http://45.131.66.129/lunaraikey/key.lua"))()
 
 local keyInputTable = {
     InputtedKey = ""
